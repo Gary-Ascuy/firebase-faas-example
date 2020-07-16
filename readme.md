@@ -23,6 +23,16 @@ $ firebase init functions
 $ firebase deploy
 ```
 
+##### TIP 
+
+- Update functions/package.json engine version to 8 for free deploy
+
+```json 
+"engines": {
+    "node": "8"
+},
+```
+
 ### Steps Firebase Init 
 
 ```sh
