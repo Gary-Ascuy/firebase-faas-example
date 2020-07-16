@@ -45,3 +45,13 @@ $ firebase deploy
   JavaScript 
 ❯ TypeScript 
 ```
+
+### References 
+
+- https://firebase.google.com/docs/functions/get-started
+- https://github.com/firebase/functions-samples
+- https://github.com/Gary-Ascuy/firebase-faas-example
+
+### Random Generator
+
+- https://us-central1-test-deploy-54d07.cloudfunctions.net/RandomGenerator
