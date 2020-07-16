@@ -8,7 +8,7 @@ const members = [
 
 export const RandomGenerator = functions.https.onRequest((request, response) => {
     const random = Math.random();
-    const position = Math.floor(random * 3);
+    const position = Math.floor(random * members.length);
     const speaker = members[position];
     const date = new Date();
   
